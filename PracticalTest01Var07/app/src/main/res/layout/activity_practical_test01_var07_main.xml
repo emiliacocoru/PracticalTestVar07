@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PracticalTest01Var07MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:ems="11"
+            android:layout_row="0"
+            android:saveEnabled="false"
+            />
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="11"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:saveEnabled="false" />
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="11"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:saveEnabled="false" />
+
+        <EditText
+            android:id="@+id/edittext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="11"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:saveEnabled="false" />
+    </GridLayout>
+    <Button
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/set"
+        />
+    <Button
+        android:id="@+id/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/service"
+        />
+
+</LinearLayout>
